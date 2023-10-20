@@ -1,0 +1,124 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header,
+.begin,
+.footer {
+    background-color: #1f2937;
+}
+
+/* Main Containers */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.begin-p {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: center;
+    gap: 300px;
+}
+
+.mid-1 {
+    background-color: white;
+    display: flex;
+}
+
+.mid-2 {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.popup {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+/* Sub Containers */
+
+.begin-c {
+    width: 400px;
+}
+
+.mid-c {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.mid-p {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.mid-img {
+    width: 50px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.bold {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.popup,
+.begin .sign-up {
+    background-color: #3882F6;
+}
+
+.card {
+    color: #1f2937;
+}
+
+li {
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+}

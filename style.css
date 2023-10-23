@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
+    background-color: #E5E7EB;
 }
 
 .header,
@@ -39,15 +40,32 @@ body {
 
 .mid-2 {
     background-color: #E5E7EB;
-    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
 }
 
 .popup {
     display: flex;
+    margin: 50px;
+    background-color: #E5E7EB;
+}
+
+.popup-p {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 25px;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: column;
 }
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Sub Containers */
@@ -73,7 +91,11 @@ body {
 }
 
 .mid-img {
-    width: 50px;
+    width: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 8px;
 }
 
 img {
@@ -108,8 +130,24 @@ img {
     background-color: #3882F6;
 }
 
+.popup-c {
+    background-color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+}
+
 .card {
     color: #1f2937;
+}
+
+.begin-c .sign-up {
+    border-radius: 5px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border-color: #3882F6;
+    padding: 8px;
+    margin-top: 12px;
 }
 
 li {

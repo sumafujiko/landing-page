@@ -43,7 +43,7 @@ body {
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
-    padding: 50px 50px;
+    padding: 175px 175px;
 }
 
 .popup {
@@ -94,18 +94,20 @@ body {
 .mid-img {
     width: 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     border: 8px;
+    padding: 0px;
 }
 
 .mid-mid {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 50px;
+    margin-right: 200px;
     text-align: center;
+    gap: 300px;
 }
 
 .img1 {
@@ -116,9 +118,9 @@ body {
 .img2 {
     height: 200px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #3882F6;
-    border-width: 4px;
+    border-width: 20px;
 }
 
 .bold {
@@ -177,4 +179,21 @@ li {
 ul {
     display: flex;
     gap: 8px;
+}
+
+.card-c {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-top: 8px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    padding-top: 20px;
 }
